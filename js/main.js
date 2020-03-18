@@ -47,6 +47,7 @@ $('.validate-form .input100').each(function(){
 function showValidate() {
     var thisAlert = $(".input100").parent();
     $(thisAlert).addClass('alert-validate');
+    alert("Student not found. Please enter the student name by format (first name followed by last name)")
 }
 
 function hideValidate(input) {

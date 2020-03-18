@@ -1,8 +1,7 @@
 table {
-    font-family: arial, sans-serif;
+    font-family: candara, sans-serif;
     border-collapse: collapse;
-    width: 100%;
-    table-layout: fixed;
+    width: inherit;
     text-align: center;
     background-color: white;
   }
@@ -16,7 +15,11 @@ table {
     background: #cccccc;
   }
   #teacher {
-    background-color: #dddddd;
+    background: -webkit-linear-gradient(-135deg, #c850c0, #4158d0);
+  }
+
+  #teachers {
+    background: -webkit-linear-gradient(-135deg, #c850c0, #4158d0);
   }
 
   #allElements{
@@ -41,7 +44,7 @@ table {
   }
 
   #upContent{
-    background-color: black;
+    background: -webkit-linear-gradient(-135deg, #c850c0, #4158d0);
     color: white;
   }
 
@@ -52,7 +55,6 @@ table {
   #about{
     color: white;
   }
-
 
   @-webkit-keyframes spin {
     0% { -webkit-transform: rotate(0deg); }

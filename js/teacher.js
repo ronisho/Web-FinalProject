@@ -1,10 +1,11 @@
 class Teacher {
-    constructor(name, startTime, endTime, meetingList) {
+    constructor(name, startTime, endTime, meetingList,profession) {
         this.name = name;
         this.cellList = new Map();
         this.startTime = startTime;
         this.endTime = endTime;
         this.meetingList = meetingList;
+        this.profession = profession;
         this.registeredStudents = new Map();
         this.writeToTeacherList();
         this.createCelles();
@@ -12,7 +13,8 @@ class Teacher {
     }
 
     writeToTeacherList() {
-        document.getElementById("teacher").innerHTML += "<th>" + this.name + "</th>";
+        document.getElementById("teacher").innerHTML += "<th>" + this.name + ":\n" + this.profession + "</th>";
+        
     }
 
     createCelles() {

@@ -48,11 +48,18 @@ function addTheHoursCol() {
 
 
 function buildTable() {
+    if (screen.width < 700){
+        $("#allElements").css("width", "max-content");
+        $("#myTable").css("width", "max-content");
+    }else{
+        $("#allElements").css("width", "100%");
+        $("#myTable").css("width", "inherit");
+    }
     for (var key in teachers) {
         let teacherName = teachers[key].name;
         let teacherMeeting = teachers[key].list;
-
-        teacherMap.set(teacherName, new Teacher(teacherName, startTime, endTime, teacherMeeting));
+        let teacherProfession = teachers[key].profession;
+        teacherMap.set(teacherName, new Teacher(teacherName, startTime, endTime, teacherMeeting,teacherProfession));
     }
 }
 

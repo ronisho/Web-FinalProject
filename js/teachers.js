@@ -45,6 +45,8 @@ function addTheHoursCol() {
 }
 
 function buildTable() {
+    $("#allElements").css("width", "100%");
+    $("#myTable").css("width", "inherit");
     document.getElementById("teachers").innerHTML += "<th>" + "List" + "</th>";
     for (let hour = this.startTime; hour < this.endTime; hour++) {
         cellList.set(hour + "00", new Cell(this.name, hour + "00"));
@@ -54,7 +56,6 @@ function buildTable() {
 }
 
 function initEvnet() {
-
     let teacherMeeting = teachers[user].list;
     for (var key in teacherMeeting) {
         let time = document.getElementById('-' + teacherMeeting[key].time);
