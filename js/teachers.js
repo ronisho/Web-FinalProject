@@ -36,7 +36,7 @@ function writeTheHourToHtmlPage() {
 
 }
 function addTheHoursCol() {
-    document.getElementById("teacher1").innerHTML += "<th>Time</th>";
+    document.getElementById("teachers").innerHTML += "<th>Time</th>";
     for (let hour = this.startTime; hour < this.endTime; hour++) {
         document.getElementById(hour + "00").innerHTML += "<td>" + hour + "00" + "</td>";
         document.getElementById(hour + "20").innerHTML += "<td>" + hour + "20" + "</td>";
@@ -45,7 +45,7 @@ function addTheHoursCol() {
 }
 
 function buildTable() {
-    document.getElementById("teacher1").innerHTML += "<th>" + "List" + "</th>";
+    document.getElementById("teachers").innerHTML += "<th>" + "List" + "</th>";
     for (let hour = this.startTime; hour < this.endTime; hour++) {
         cellList.set(hour + "00", new Cell(this.name, hour + "00"));
         cellList.set(hour + "20", new Cell(this.name, hour + "20"));
