@@ -1,6 +1,6 @@
 ### Web-FinalProject
 # Parent Scheduling System - Teachers:
-### link to a website: https://ronisho.github.io/Web-FinalProject/
+### https://ronisho.github.io/Web-FinalProject/
 The site describes a system for coordinating parent-teacher meetings. Parents enter using their child's full name and thus reveal to them a table with the teachers' names, the subjects they teach and the relevant hours for coordinating a meeting.
 Teachers also enter with their full name, thus revealing to them a table with the names of students and the times parents chose for the meeting.
 
