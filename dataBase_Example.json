@@ -1,0 +1,136 @@
+{
+  "hour" : {
+    "end" : 20,
+    "start" : 15
+  },
+  "student" : [ {
+    "id" : "0",
+    "name" : "gal cohen"
+  }, {
+    "id" : "1",
+    "name" : "eilon osher"
+  }, {
+    "id" : "2",
+    "name" : "noa levi"
+  }, {
+    "id" : "3",
+    "name" : "yuval aba"
+  } ],
+  "teacher" : {
+    "alon zem" : {
+      "id" : "1",
+      "list" : {
+        "-M2cTjI7gScwaIIWv2oJ" : {
+          "name" : "noa levi",
+          "time" : "1520"
+        },
+        "-M2dWjd3m2FeZWqK_jdM" : {
+          "name" : "gal cohen",
+          "time" : "1640"
+        },
+        "-M2jKzUl1RvrG4zRdzlj" : {
+          "name" : "yuval aba",
+          "time" : "1820"
+        }
+      },
+      "name" : "alon zem",
+      "profession" : "English"
+    },
+    "avi david" : {
+      "id" : "4",
+      "list" : {
+        "-M2cTjUqrnzuK3J7QXCc" : {
+          "name" : "noa levi",
+          "time" : "1500"
+        },
+        "-M2cmhLu6sIX3CAO_o-o" : {
+          "name" : "alon",
+          "time" : "1620"
+        },
+        "-M2dWiYjrnv6gLpsjIAb" : {
+          "name" : "gal cohen",
+          "time" : "1600"
+        },
+        "-M2jKzlQNbLzbp6FLwRf" : {
+          "name" : "yuval aba",
+          "time" : "1740"
+        }
+      },
+      "name" : "avi david",
+      "profession" : "Hebrew"
+    },
+    "moshe biton" : {
+      "id" : "3",
+      "list" : {
+        "-M2dWf1jdMWxa-UYK1EK" : {
+          "name" : "gal cohen",
+          "time" : "1620"
+        },
+        "-M2dnCI5FvfjSwaLrRt8" : {
+          "name" : "gal",
+          "time" : "1500"
+        },
+        "-M2j4yJbVtct5EmiKLnj" : {
+          "name" : "noa levi",
+          "time" : "1800"
+        },
+        "-M2jL-BRA3MeJsDLJujI" : {
+          "name" : "yuval aba",
+          "time" : "1540"
+        }
+      },
+      "name" : "moshe biton",
+      "profession" : "Science"
+    },
+    "noam ron" : {
+      "id" : "5",
+      "list" : {
+        "-M2dm270Ib9UiNOBdAD0" : {
+          "name" : "gal",
+          "time" : "1520"
+        },
+        "-M2j4PxwK9oktGo5u87S" : {
+          "name" : "noa levi",
+          "time" : "1820"
+        },
+        "-M2jL-gRHdabUMKucc7T" : {
+          "name" : "yuval aba",
+          "time" : "1920"
+        },
+        "-M2jWVMY5-ZNx9nGi5rr" : {
+          "name" : "gal cohen",
+          "time" : "1840"
+        }
+      },
+      "name" : "noam ron",
+      "profession" : "Algorithm"
+    },
+    "roni shos" : {
+      "id" : "2",
+      "list" : {
+        "-M2cTtTV7tKo7u3VYAep" : {
+          "name" : "eilon osher",
+          "time" : "1740"
+        },
+        "-M2cTw-UILttpOoH0Mrq" : {
+          "name" : "noa levi",
+          "time" : "1700"
+        },
+        "-M2cY2XPXdBJFPLcGNbq" : {
+          "name" : "alon",
+          "time" : "1600"
+        },
+        "-M2dWg_LuYmfxa7d4W-2" : {
+          "name" : "gal cohen",
+          "time" : "1540"
+        },
+        "-M2jL04i79sT0vbsJ0rR" : {
+          "name" : "yuval aba",
+          "time" : "1720"
+        }
+      },
+      "name" : "roni shos",
+      "profession" : "Math"
+    }
+  }
+}
